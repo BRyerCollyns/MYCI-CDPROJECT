@@ -2,6 +2,7 @@ import pytest
 from src.app import app
 import sys
 import os
+from flask import flask
 
 # Add src/ to Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
